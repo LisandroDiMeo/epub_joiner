@@ -1,5 +1,41 @@
-# Vue 3 + Vite
+# EPUB Joiner
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+![EPUB Joiner](public/image.png)
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+A browser-based tool to merge multiple EPUB files into one. No server, no uploads — everything runs locally in your browser.
+
+## Features
+
+- Drag-and-drop file upload
+- Reorder books via drag-and-drop
+- Merged table of contents with per-book sections
+- Supports EPUB 2 and EPUB 3
+- Estimated output size preview
+- Instant download of the merged EPUB
+
+## Demo
+
+https://github.com/user-attachments/assets/demo.mov
+
+Try it live: https://lisandrodimeo.github.io/epub_joiner/
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+The static output in `dist/` can be deployed anywhere (GitHub Pages, Netlify, etc.).
+
+## Tech Stack
+
+- Vue 3 + Vite
+- JSZip
+- vuedraggable
